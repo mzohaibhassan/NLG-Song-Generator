@@ -3,6 +3,13 @@ import re
 import random
 from nltk.tokenize import word_tokenize
 from collections import defaultdict, deque
+
+"""
+Here we'll import some Taylor Swift songs in order to train our model on it.
+By doing that our model will create songs in the style of taylor swift. 
+If you want to create songs in the style of some other singer feel free to add their songs in training docs.
+By increasing the number of data to learn (train), the song quality will increase
+"""
 from document1 import training_doc1
 from document2 import training_doc2
 from document3 import training_doc3
